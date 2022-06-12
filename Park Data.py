@@ -1,4 +1,5 @@
 import sqlite3, os
+#
 choice = input("Do you wish to run live import and reset dbase? Y / N: ")
 if choice.lower() == "y":
     try:
