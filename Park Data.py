@@ -101,7 +101,7 @@ while suburb != 'x':
             for preference in preferences:
                 if preferences[preference] == "Yes" and row[preference] == "Yes": #the preference matches the park!
                     pref = pref + " Found: " + preference + ","
-            print(row['ADDRESS'],"  Rating:", row['Rating'],"/ 10", pref + " " )
+                    print(row['ADDRESS'],"  Rating:", row['Rating'],"/ 10", pref + " " )
             
     except Exception as e:
         print("Something bad happened:",e)
